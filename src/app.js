@@ -4,12 +4,13 @@ import ReactDOM from 'react-dom'
 //import ChatComponent from './components/Chat.js'
 //import GoogleAuth from './components/Google.js'
 //import GoogleMapComponent from './components/GoogleMap.js'
+import ImmutableComponent from './components/Immutable.js'
 
 class App extends React.Component{
   render(){
     return(
       <div>
-        hello
+        <ImmutableComponent />
       </div>
     );
   }
