@@ -1,32 +1,25 @@
-# react-environment
+# react-components  
+## Reactのコンポーネント集
 
-# React.jsを書くための最小サンプル  
+### ■ Chat.js  
 
-`git clone git@github.com:nagahamayuki/react-environment.git`  
-
-１,`npm install`  
-
-２、`npm start`  
-
-ローカルでの開発はwebpack-dev-serverにて、  
-リロード機能付きで作ることもできる。  
-
->This project can also make React in Node.js,  
->For local development on webpack-dev-server,  
->It can also be made with a reload function.  
-
-●構成はReact.jsはsrc以下に書きましょう。  
-Reactを書いて、作るときは  
-
-`npm run build`  
-
-# gitの監視から外すコマンドは、  
-
-`rm -rf .git/`  
+reduxアーキテクチャによって実行。サーバーサイドと繋げられたらより良い。  
 
 
-# nodeからサーバーを立ててReactを動かしたい時には、  
-<http://qiita.com/armorik83/items/0658f4a6c75270da726a>  
+### ■ Facebook.js  
 
-多分expressを使わないと、nodeのサーバーでReactを使うことはできません。
-# react-components
+Facebookでのログイン実装。  
+
+
+### ■ Google.js  
+
+Googleでのログイン実装。  
+
+
+### GoogleMap.js  
+
+Google mapを実装。  
+[npm : google-map-react](https://www.npmjs.com/package/google-map-react)  
+
+
+  
