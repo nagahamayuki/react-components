@@ -1,35 +1,35 @@
 # react-components  
 ## Reactのコンポーネント集
 
-### ■ Chat.js  
+## ■ Chat.js  
 
 reduxアーキテクチャによって実行。サーバーサイドと繋げられたらより良い。  
 
 
-### ■ Facebook.js  
+## ■ Facebook.js  
 
 Facebookでのログイン実装。  
 
 
-### ■ Google.js  
+## ■ Google.js  
 
 Googleでのログイン実装。  
 
 
-### GoogleMap.js  
+## ■ GoogleMap.js  
 
 Google mapを実装。  
 [npm : google-map-react](https://www.npmjs.com/package/google-map-react)  
 
 
-### Immutable  
+## ■ Immutable  
 
-##### Immutable.js  
+### Immutable.js  
 
 Immutableの簡単な使い方のみ。  
 [immutable.jsを使ってみる](http://smart.ataglance.jp/2015-06-04-try-immutable-js/)  
 
-###### List  
+#### List  
 JavaScriptのarrayに当たるオブジェクトがimmutable.jsのListである。
 
 ```
@@ -39,5 +39,5 @@ console.log(map); //1,2,3
 console.log(map2); //1,2,3,4
 ```
 
-###### Map  
+#### Map  
 {}に対応するオブジェクトがMapである。  
